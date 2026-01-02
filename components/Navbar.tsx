@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ShoppingBag, Search, User, Menu, X, Globe, Sun } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 
 const Navbar: React.FC = () => {
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-black tracking-tight leading-none ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-                BIO <span className="text-emerald-500">CANNABIS</span>
+                Cannabis<span className="text-emerald-500">X</span>
               </span>
               <span className={`text-[8px] font-bold tracking-[0.2em] ${scrolled ? 'text-slate-500' : 'text-emerald-300'}`}>
                 {t.tagline}

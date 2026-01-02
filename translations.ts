@@ -3,7 +3,7 @@ export type Language = 'en' | 'fr' | 'ar';
 
 export const translations = {
   en: {
-    brand: 'BIO CANNABIS',
+    brand: 'CannabisX',
     tagline: 'The Soul of Morocco, Refined by Science.',
     nav: { home: 'Home', heritage: 'The Pillars', shop: 'Export Collection', about: 'The Science', contact: 'Partnerships' },
     hero: {
@@ -43,7 +43,7 @@ export const translations = {
     }
   },
   fr: {
-    brand: 'BIO CANNABIS',
+    brand: 'CannabisX',
     tagline: "L'Âme du Maroc, Raffinée par la Science.",
     nav: { home: 'Accueil', heritage: 'Les Piliers', shop: 'Collection Export', about: 'La Science', contact: 'Partenariats' },
     hero: {
@@ -83,7 +83,7 @@ export const translations = {
     }
   },
   ar: {
-    brand: 'BIO CANNABIS',
+    brand: 'CannabisX',
     tagline: 'روح المغرب، بلمسة العلم.',
     nav: { home: 'الرئيسية', heritage: 'الأعمدة', shop: 'مجموعة التصدير', about: 'العلم', contact: 'الشراكات' },
     hero: {

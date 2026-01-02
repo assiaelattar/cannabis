@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Leaf, Mail, Phone, MapPin, Instagram, Facebook, Twitter, Linkedin, Sun } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 
 const Footer: React.FC = () => {
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                      <path d="M12,2L13.1,8.3L19.5,7.2L14.7,12L19.5,16.8L13.1,15.7L12,22L10.9,15.7L4.5,16.8L9.3,12L4.5,7.2L10.9,8.3L12,2Z" />
                    </svg>
                 </div>
-                <span className="text-3xl font-black tracking-tighter text-white">BIO <span className="text-emerald-500">CANNABIS</span></span>
+                <span className="text-3xl font-black tracking-tighter text-white">Cannabis<span className="text-emerald-500">X</span></span>
               </div>
               <span className="text-[10px] font-black tracking-[0.4em] text-emerald-500 uppercase">{t.tagline}</span>
             </div>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 text-[10px] font-black uppercase tracking-[0.2em] rtl:flex-row-reverse">
-          <p className="text-slate-600">© 2024 BIO CANNABIS ASSOCIATION. ALL ORGANIC RIGHTS RESERVED.</p>
+          <p className="text-slate-600">© 2024 CANNABISX ASSOCIATION. ALL ORGANIC RIGHTS RESERVED.</p>
           <div className="flex space-x-12 rtl:space-x-reverse">
             <a href="#" className="hover:text-white transition-colors">Lab Results</a>
             <a href="#" className="hover:text-white transition-colors">Ethics Code</a>
