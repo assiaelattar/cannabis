@@ -1,14 +1,13 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ServiceSection from './components/ServiceSection';
-import HeritageSection from './components/HeritageSection';
-import ProductCard from './components/ProductCard';
-import Footer from './components/Footer';
-import { PRODUCTS, BLOGS } from './constants';
-import { ChevronRight, Mail, Calendar, ArrowRight, FlaskConical, Beaker, Microchip, Heart, Users, Sun, ShieldCheck, Download } from 'lucide-react';
-import { LanguageProvider, useLanguage } from './components/LanguageContext';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import HeritageSection from './components/HeritageSection.tsx';
+import ProductCard from './components/ProductCard.tsx';
+import Footer from './components/Footer.tsx';
+import { PRODUCTS } from './constants.tsx';
+import { Download, Sun, FlaskConical, ShieldCheck, Beaker, Microchip, Users, Heart } from 'lucide-react';
+import { LanguageProvider, useLanguage } from './components/LanguageContext.tsx';
 
 const AppContent: React.FC = () => {
   const { t, language } = useLanguage();
@@ -74,7 +73,7 @@ const AppContent: React.FC = () => {
           </div>
         </section>
 
-        {/* Science Section - Reflecting Image 4 Extraction Columns */}
+        {/* Science Section */}
         <section id="science" className="py-32 bg-emerald-950 text-white relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className={`flex flex-col lg:flex-row items-center gap-24 ${isRtl ? 'lg:flex-row-reverse' : ''}`}>
@@ -106,10 +105,9 @@ const AppContent: React.FC = () => {
                
                <div className="flex-1 relative">
                  <div className="rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white/5 aspect-square lg:aspect-auto lg:h-[700px]">
-                   {/* Visual reflecting high-end extraction laboratory (Image 3/4) */}
                    <img 
                     src="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?auto=format&fit=crop&w=1000&q=80" 
-                    alt="Bio Cannabis Pharmaceutical Extraction" 
+                    alt="CannabisX Pharmaceutical Extraction" 
                     className="w-full h-full object-cover"
                    />
                  </div>
